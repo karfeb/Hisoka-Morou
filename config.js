@@ -10,19 +10,21 @@ const chalk = require('chalk')
 // Website Api
 global.APIs = {
 	zenz: 'https://zenzapis.xyz',
+	lolhuman:'https://api.lolhuman.xyz'
 }
 
 // Apikey Website Api
 global.APIKeys = {
 	'https://zenzapis.xyz': 'Your Key',
+	https://api.lolhuman.xyz':  '076b6c664059921b53a51f8a'
 }
 
 // Other
-global.owner = ['6283167714830','6281382420312','6288292024190']
-global.premium = ['6288292024190']
-global.packname = 'Hisoka Morrow'
+global.owner = ['6287864598751']
+global.premium = ['6287864598751']
+global.packname = 'Hour-Project'
 global.author = 'WhatsApp Bot'
-global.sessionName = 'hisoka'
+global.sessionName = 'hyzer.data'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
@@ -38,7 +40,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 100
+    free: 30
 }
 global.thumb = fs.readFileSync('./lib/hisoka.jpg')
 global.visoka = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
